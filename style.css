@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_jumbotron {
+    background-color: #754FFE;
+}
+
+.btn_browse {
+    background-color: #19CB97;
+}
+
+.text_size_button {
+    font-size: 1.1em;
+}
+
+.bg_jb_icon {
+    background-color: #FFEEDA ;
+}
+
+.bg_jb_icon > .material-symbols-outlined {
+    color: #D69650;
+}
+
+.ring_icon {
+    width: 35px;
+    height: 35px;
+    background-color: #eeeaf8;
+    color: #a27dff;
+}
+
+.user_icon {
+    background-image: url(assets/avatar-1.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
