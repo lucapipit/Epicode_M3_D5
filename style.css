@@ -137,3 +137,15 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 480px) {
+    .card-body{
+        font-size: 0.5rem;
+    }
+    .icons span{
+        font-size: 0.5rem;
+    }
+    .stars .material-symbols-rounded, .text-secondary {
+        font-size: 0.5rem !important;
+        color: red;
+    }
+}
