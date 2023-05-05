@@ -68,7 +68,7 @@
     height: 35px;
 }
 .user_icon:hover{
-    transform: scale(1.2);
+    transform: scale(1.02);
 }
 .windowClose{
     display: none;
