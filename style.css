@@ -27,10 +27,107 @@
     color: #a27dff;
 }
 
+/* stars row */
+.material-symbols-rounded{
+    color: #ffaa22;
+    width: 18px;
+    font-size: 20px !important;
+}
+.score{
+    color: #ffaa22;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+/* price barrato */
+.lineThrough{
+    text-decoration: line-through;
+    font-weight: 500;
+    color: gray;
+}
+/* footer */
+@media only screen and (min-width: 768px){
+    .footerA{
+        text-align: left !important;
+    }
+    
+}
+
+
+
+
+/* account background img */
 .user_icon {
     background-image: url(assets/avatar-1.jpg);
     background-size: cover;
     width: 35px;
     height: 35px;
 }
+.user_icon:hover{
+    transform: scale(1.02);
+}
+.windowClose{
+    display: none;
+}
+.window{
+    display: block;
+    width: 260px;
+    background-color: rgb(246, 246, 246);
+    right: 0px;
+    top: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 1px solid rgb(230, 230, 230);
+}
 
+
+
+/* background images */
+.user_icon1 {
+    background-image: url(assets/avatar-2.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon2 {
+    background-image: url(assets/avatar-3.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon3 {
+    background-image: url(assets/avatar-4.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon4 {
+    background-image: url(assets/avatar-5.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon5 {
+    background-image: url(assets/avatar-6.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon6 {
+    background-image: url(assets/avatar-7.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon7 {
+    background-image: url(assets/avatar-8.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon8 {
+    background-image: url(assets/avatar-1.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
