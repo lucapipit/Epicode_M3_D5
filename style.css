@@ -59,13 +59,33 @@
 
 
 
-/* background images */
+
+/* account background img */
 .user_icon {
     background-image: url(assets/avatar-1.jpg);
     background-size: cover;
     width: 35px;
     height: 35px;
 }
+.user_icon:hover{
+    border: 2px solid red;
+}
+.windowClose{
+    display: none;
+}
+.window{
+    display: block;
+    width: 250px;
+    height: 300px;
+    background-color: green;
+    right: 0px;
+    top: 50px;
+    border-radius: 10px;
+}
+
+
+
+/* background images */
 .user_icon1 {
     background-image: url(assets/avatar-2.jpg);
     background-size: cover;
