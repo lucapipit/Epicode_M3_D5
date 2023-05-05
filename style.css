@@ -28,7 +28,7 @@
 }
 
 /* stars row */
-.material-symbols-rounded{
+.stars .material-symbols-rounded{
     color: #ffaa22;
     width: 18px;
     font-size: 20px !important;
@@ -131,3 +131,9 @@
     width: 35px;
     height: 35px;
 }
+
+.bookmark_icon {
+    color: grey;
+    cursor: pointer;
+}
+
