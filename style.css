@@ -31,6 +31,35 @@
     color: #a27dff;
 }
 
+/* stars row */
+.material-symbols-rounded{
+    color: #ffaa22;
+    width: 18px;
+    font-size: 20px !important;
+}
+.score{
+    color: #ffaa22;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+/* price barrato */
+.lineThrough{
+    text-decoration: line-through;
+    font-weight: 500;
+    color: gray;
+}
+/* footer */
+@media only screen and (min-width: 768px){
+    .footerA{
+        text-align: left !important;
+    }
+    
+}
+
+
+
+/* background images */
 .user_icon {
     background-image: url(assets/avatar-1.jpg);
     background-size: cover;
