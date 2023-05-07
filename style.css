@@ -26,6 +26,16 @@
     background-color: #eeeaf8;
     color: #a27dff;
 }
+/* card */
+.card{
+    box-shadow: 1px 1px 3px #e6e6e6;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 6px 6px 12px #e6e6e6;
+    transition: transform .2s ease-in-out .07s;
+}
+
 
 /* stars row */
 .stars .material-symbols-rounded{
@@ -39,12 +49,15 @@
     font-size: 20px;
 }
 
+
 /* price barrato */
 .lineThrough{
     text-decoration: line-through;
     font-weight: 500;
     color: gray;
 }
+
+
 /* footer */
 @media only screen and (min-width: 768px){
     .footerA{
@@ -52,8 +65,6 @@
     }
     
 }
-
-
 
 
 /* account background img */
@@ -132,6 +143,8 @@
     height: 35px;
 }
 
+
+/* bookmark */
 .bookmark_icon {
     color: grey;
     cursor: pointer;
