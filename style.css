@@ -45,6 +45,7 @@
     font-weight: 500;
     color: gray;
 }
+
 /* footer */
 @media only screen and (min-width: 768px){
     .footerA{
@@ -52,9 +53,6 @@
     }
     
 }
-
-
-
 
 /* account background img */
 .user_icon {
@@ -79,8 +77,6 @@
     font-weight: 500;
     border: 1px solid rgb(230, 230, 230);
 }
-
-
 
 /* background images */
 .user_icon1 {
@@ -137,15 +133,24 @@
     cursor: pointer;
 }
 
+/* responsive card mobile version */
 @media only screen and (max-width: 480px) {
     .card-body{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     .icons span{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     .stars .material-symbols-rounded, .text-secondary {
-        font-size: 0.5rem !important;
-        color: red;
+        font-size: 0.7rem !important;
     }
+    .stars .score {
+        font-size: 0.7rem !important;
+    }
+}
+
+/* animation hover cards */
+.card-animation:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px -5px #0000007d;
 }
